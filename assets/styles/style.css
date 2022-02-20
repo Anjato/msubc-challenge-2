@@ -52,13 +52,18 @@ p, .p {
 }
 
 /*  */
-.nav-menu li a {
+.nav-menu li a{
     transition: all 0.5s ease 0s;
     font-size: 20px;
 }
 
 /*  */
-.nav-menu li a:hover {
+.projects div div a {
+    transition: all 0.5s ease 0s;
+}
+
+/*  */
+.nav-menu li a:hover, .projects div div a:hover {
     color: mediumpurple;
 }
 
